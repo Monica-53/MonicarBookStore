@@ -22,4 +22,8 @@
     <ProjectReference Include="..\MonicarBooks.Utility\MonicarBooks.Utility.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Controllers\" />
+  </ItemGroup>
+
 </Project>
