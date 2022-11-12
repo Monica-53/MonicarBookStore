@@ -5,27 +5,7 @@ Individual Account Authentication
 Added Razor runtime - just for fun! ;
 Hit create and then reviewed the default app.
 1246
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-A small change made on Startup.css
-_Layout.cshtml,_LoginPartial.cshtml,_validationScriptPArtial.cshtml,Erro.cshtml files are opened and contents of them are understood
-Application ran to see the view
-GoTo Bootswatch.com
-Select aTheme
-Downlaod bootstap.css
-lib>bootstrap>dist>css and replace bootstap.css with dowloaded file
-Views>shared>_LAyout.cshtml change the file name from bootstrap.min.css to bootstrap.css
- Links to additional 3rd party tools are added
-_Layout.cshtml additional stylesheets and scripts from the CSS_JS.txt file are added
-Three new projects .NET Core class library are added to the application
-'Datafolder copied and pasted to .DataAccess prouect and the original one is deleted
-MIcrosoft.EntityFrmaworkCore.Relational and Core.sqlserver are installed
-Migration folder is deleted
-NuGet package is installed 
-namespace modeified to reflect the project
-Delete default Class1.css file in all projects
-build the project
-Modify Views>shared>Erro.cshtml
-updated
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Second attempt from scratch 
 2022-11-10 11:30a.m
@@ -44,7 +24,24 @@ Goto wwwroor and replace the existing bootstrap.css this is done following lib>b
 replace the existing site.css file found in the main css folder
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------A
 add stylesheets and scripts to _Layout.cshtml from CSS_JS.txt file
-To the Navbar a drop down is added..
+To the Navbar a drop down is added.
+drop down is working
+-------------------------------------------------------------------------------------------------------------------------------------------
+2022-11-10 Add and modify 
+Three projects are added and named as MonicarBook.DataAccess,MonicarBooksModels, MonicaBooksUtility
+Installed required Nuget packages in MonicarDataAccess
+Migrations folder deleted
+name space is modified, At this point I have errors
+Deleted class1.cs from all the folders
+I could not build the project because of errors
+I continued with the remaining steps inspite of errors 
+Added required references
+Changed ErrorViewModels.cs to .Models.ViewModels
+tried rebuikding the project but could not run it due to errors
+I am clsoing at this point
+It is 2:00 PM
+--------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
