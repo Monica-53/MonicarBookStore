@@ -86,6 +86,7 @@ so far so good
 2022-11-12 2:30PM I switched back with the project created second time and decided to continue with it because my third attempt project was not giving output correctly
 I started with the second part of the project I rebuild the solution it did not give me any 
 In package Manager Console add-migration AddDefaultIdentitypeMigration choosingMonicarBooks.DataAccess
+I have an error saying "Exception has been thrown by the target of an invocation." how to fix this?
 
 
 
