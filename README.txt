@@ -88,5 +88,6 @@ I started with the second part of the project I rebuild the solution it did not 
 In package Manager Console add-migration AddDefaultIdentitypeMigration choosingMonicarBooks.DataAccess
 I have an error saying "Exception has been thrown by the target of an invocation." how to fix this?
 
-
+MissingMethodException: Method not found: 'Boolean Microsoft.EntityFrameworkCore.Migrations.IMigrationsModelDiffer.HasDifferences(Microsoft.EntityFrameworkCore.Metadata.IModel, Microsoft.EntityFrameworkCore.Metadata.IModel)'.
+Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
 
